@@ -23,7 +23,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.925.0",
     "@aws-sdk/s3-request-presigner": "^3.925.0",
-    "@nestjs/common": "^11.2.11",
+    "@nestjs/common": "^12.6.0",
     "@nestjs/core": "^11.2.11",
     "@nestjs/jwt": "^11.0.2",
     "@nestjs/mapped-types": "^2.1.1",
