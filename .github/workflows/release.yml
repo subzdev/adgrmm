@@ -48,7 +48,7 @@ jobs:
 
       - name: Agent packages from a build run
         if: ${{ inputs.agent_run_id != '' }}
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: agent-packages
           run-id: ${{ inputs.agent_run_id }}
