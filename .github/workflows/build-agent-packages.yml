@@ -19,7 +19,7 @@ jobs:
       # Matches how developers check the code out, because line endings end up in the build.
       - run: git config --global core.autocrlf true
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-dotnet@v4
         with:

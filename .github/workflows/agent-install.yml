@@ -25,7 +25,7 @@ jobs:
       AUTH_COOKIE_NAME: auth_token
       ADMIN_API_KEY: ci-only-admin-key-0123456789abcdef0123
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -66,7 +66,7 @@ jobs:
       BASE_URL: http://127.0.0.1:3001
       STATE_DIR: ${{ github.workspace }}/e2e-state
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-dotnet@v4
         with:
