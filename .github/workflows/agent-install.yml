@@ -278,7 +278,7 @@ jobs:
           fi
 
       - name: Upload packages
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: agent-packages-${{ matrix.agent_os }}
           path: agent-packages/
