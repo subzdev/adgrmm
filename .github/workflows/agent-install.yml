@@ -82,7 +82,7 @@ jobs:
       - name: Start Postgres (Windows)
         if: matrix.agent_os == 'windows'
         # Third-party action pinned to a movable tag: pin it to a full commit SHA before relying on this workflow for releases.
-        uses: ikalnytskyi/action-setup-postgres@v7
+        uses: ikalnytskyi/action-setup-postgres@v9
         id: postgres
         with:
           database: adg_e2e
